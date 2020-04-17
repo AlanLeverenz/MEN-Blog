@@ -2,8 +2,8 @@ const express = require('express')
 const app = express() // calls express function to start new Express app
 const path = require('path')
 
-app.listen(3000,() => {
-    console.log("App listening on port 3000")
+app.listen(4000,() => {
+    console.log("App listening on port 4000")
 })
 
 app.get('/', (req, res) => {
